@@ -1,0 +1,23 @@
+$_btnPaddingX: .6875rem;
+$_btnPaddingY: .5rem;
+
+.root {
+  cursor: pointer;
+  background-color: $grayLighter;
+  border: 1px solid $grayLight;
+  border-radius: 3px;
+  color: $gray;
+  display: flex;
+  align-items: center;
+  padding: $btnPaddingY $btnPaddingX;
+
+  svg + span {
+    margin-left: 10px;
+  }
+
+  &.active {
+    background: $white;
+    border: 1px solid $blue;
+    color: $blue;
+  }
+}

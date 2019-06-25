@@ -1,0 +1,77 @@
+$cardBg: $white;
+$cardBorderRadius: $borderRadius;
+
+$cardTitleColor: $gray;
+$cardTitleSize: .6875rem;
+$cardTitleWeight: $fontRegular;
+
+$cardSubtitleColor: $grayLight;
+$cardSubtitleSize: 10px;
+$cardSubtitleWeight: $fontRegular;
+
+.card {
+  background-color: $cardBg;
+  border-radius: $cardBorderRadius;
+  color: $black;
+  display: block;
+  padding: $cardContainerPaddingY $cardContainerPaddingX;
+  position: relative;
+
+  @mixin cardBoxShadow;
+
+  .block {
+    padding: $cardPaddingY $cardPaddingX;
+    position: relative;
+  }
+
+  > .block {
+    &:first-of-type {
+      padding-top: 0;
+    }
+
+    &:last-of-type {
+      padding-bottom: 0;
+    }
+  }
+
+  .actions {
+    float: right;
+  }
+
+  .title {
+    color: $cardTitleColor;
+    display: inline-block;
+    font-size: $cardTitleSize;
+    font-weight: $cardTitleWeight;
+    text-transform: uppercase;
+  }
+}
+
+.group,
+.blockgroup {
+  display: flex;
+  flex: 0% 1 auto;
+  flex-flow: row wrap;
+}
+
+.group {
+  background: $white;
+  border-radius: $borderRadius;
+
+  @mixin cardBoxShadow;
+
+  .card {
+    background: transparent;
+    border-radius: 0;
+    box-shadow: none;
+
+    + .card {
+      margin-left: 0;
+
+      @media (--tablet-portrait) {
+        border-left: 1px solid $grayLighter;
+        box-sizing: border-box;
+      }
+    }
+  }
+}

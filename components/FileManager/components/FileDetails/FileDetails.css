@@ -1,0 +1,107 @@
+.root {
+  background: $grayLightest;
+  border-bottom-right-radius: $cardBorderRadius;
+  border-left: 2px solid $grayLighter;
+  height: 100%;
+
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    height: calc(100% - 40px - 20px);
+    padding: 40px 20px 20px;
+    text-align: center;
+  }
+
+  .top {
+    flex: 2;
+    max-height: 250px;
+
+    > div {
+      height: calc(100% - 25px);
+    }
+
+    > button {
+      margin-left: auto;
+    }
+  }
+
+  .middle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0 40px;
+
+    .details {
+      width: 100%;
+
+      .name {
+        text-overflow: ellipsis;
+        overflow: hidden;
+        font-size: 1rem;
+        margin-bottom: 5px;
+
+        [class^="EditableTitle__root"] {
+          justify-content: center;
+
+          > input {
+            background-color: $grayLightest;
+          }
+        }
+      }
+
+      .type {
+        color: $gray;
+        font-size: .625rem;
+      }
+    }
+  }
+
+  .bottom {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+
+    .field,
+    [class^="Checkbox__checkbox"] {
+      lost-flex-container: flex;
+      align-items: center;
+      width: 100%;
+
+      > label {
+        color: $gray;
+        font-size: .625rem;
+        lost-column: 1/4 2 10px;
+        lost-align: middle-right;
+        text-transform: uppercase;
+
+        + div,
+        + span {
+          lost-column: 3/4 2 10px;
+          lost-align: middle-left;
+
+          > div {
+            width: 100%;
+          }
+        }
+      }
+
+      > svg {
+        margin-left: auto;
+
+        + span {
+          lost-column: 3/4 2 10px;
+          lost-align: middle-left;
+          margin-left: 0 !important;
+        }
+      }
+    }
+
+    .field + .field {
+      margin-top: 15px;
+    }
+
+    > button {
+      margin: auto -15px -10px auto;
+    }
+  }
+}

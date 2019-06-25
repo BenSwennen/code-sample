@@ -1,0 +1,82 @@
+.root {
+  border-radius: 6px;
+  padding: 5px;
+  user-select: none;
+  border: 2px solid transparent;
+  position: relative;
+
+  .thumb {
+    position: absolute;
+    right: 11px;
+    top: 11px;
+
+    &:nth-of-type(2) {
+      top: 25px;
+    }
+  }
+
+  &.clickable {
+    cursor: pointer;
+  }
+
+  &.loading {
+    height: 146px;
+    background: $grayLighter;
+    color: $gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    pointer-events: none;
+
+    > div:last-of-type {
+      margin-top: 20px;
+    }
+  }
+
+  &.selected {
+    border: 2px solid $blue;
+  }
+
+  [class^="BackgroundImage"],
+  .placeholder {
+    height: 92px;
+  }
+
+  .placeholder {
+    border: 2px solid $grayLight;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .details {
+    font-size: .625rem;
+    line-height: .75rem;
+    padding: 8px 5px 3px;
+
+    .bottom,
+    .top {
+      display: flex;
+
+      * + * {
+        margin-left: auto;
+      }
+    }
+
+    .bottom {
+      color: $gray;
+    }
+
+    .top {
+      color: $black;
+      padding-bottom: 15px;
+
+      > span {
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+      }
+    }
+  }
+}

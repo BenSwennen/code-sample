@@ -1,0 +1,184 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots CardGroup Borders 1`] = `
+<div>
+  <div
+    className="group"
+  >
+    <div
+      className="container"
+      style={null}
+    >
+      <div
+        className="column span3"
+        style={Object {}}
+      >
+        <div
+          className="card"
+        >
+          <div
+            className="block"
+          >
+            <div
+              className="title"
+            >
+              Card 1
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="verticalSeparator"
+        style={null}
+      />
+      <div
+        className="column span4"
+        style={Object {}}
+      >
+        <div
+          className="card"
+        >
+          <div
+            className="block"
+          >
+            <div
+              className="title"
+            >
+              Card 2
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="verticalSeparator"
+        style={null}
+      />
+      <div
+        className="column span9"
+        style={Object {}}
+      >
+        <div
+          className="card"
+        >
+          <div
+            className="block"
+          >
+            <div
+              className="title"
+            >
+              Card 3
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="horizontalSeparator"
+      />
+      <div
+        className="column span16"
+        style={Object {}}
+      >
+        <div
+          className="card"
+        >
+          <div
+            className="block"
+          >
+            <div
+              className="title"
+            >
+              Card 4
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots CardGroup No borders 1`] = `
+<div>
+  <div
+    className="group"
+  >
+    <div
+      className="container"
+      style={null}
+    >
+      <div
+        className="column span3"
+        style={Object {}}
+      >
+        <div
+          className="card"
+        >
+          <div
+            className="block"
+          >
+            <div
+              className="title"
+            >
+              Card 1
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="column span4"
+        style={Object {}}
+      >
+        <div
+          className="card"
+        >
+          <div
+            className="block"
+          >
+            <div
+              className="title"
+            >
+              Card 2
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="column span9"
+        style={Object {}}
+      >
+        <div
+          className="card"
+        >
+          <div
+            className="block"
+          >
+            <div
+              className="title"
+            >
+              Card 3
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="column span16"
+        style={Object {}}
+      >
+        <div
+          className="card"
+        >
+          <div
+            className="block"
+          >
+            <div
+              className="title"
+            >
+              Card 4
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

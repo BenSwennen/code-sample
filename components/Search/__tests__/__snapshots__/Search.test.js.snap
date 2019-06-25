@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Search /> renders correctly 1`] = `
+<div
+  className="root right"
+>
+  <svg
+    style={
+      Object {
+        "display": "inline-block",
+        "fill": "true",
+        "height": "1rem",
+        "width": "1rem",
+      }
+    }
+  >
+    <svg
+      viewBox="0 0 17 16"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <g
+        fill="none"
+        fillRule="evenodd"
+      >
+        <path
+          d="M11.165 9.043A5.962 5.962 0 0 0 12 6a6 6 0 1 0-6 6c1.112 0 2.15-.308 3.043-.835l4.396 4.396a1.5 1.5 0 1 0 2.122-2.121l-4.396-4.397z"
+          fill="#91A6B6"
+        />
+        <path
+          d="M1 6a5 5 0 1 1 10 0A5 5 0 0 1 1 6z"
+          fill="#FFF"
+          fillOpacity=".7"
+        />
+        <path
+          d="M9 6a3 3 0 0 0-3-3V2a4 4 0 0 1 4 4H9z"
+          fill="#FFF"
+        />
+      </g>
+    </svg>
+  </svg>
+  <input
+    id="search"
+    onChange={[Function]}
+    placeholder="Search"
+    type="text"
+    value=""
+  />
+</div>
+`;

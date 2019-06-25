@@ -1,0 +1,129 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots FileStack multiple files 1`] = `
+<div
+  style={
+    Object {
+      "background": "#FFF",
+      "height": "200px",
+      "padding": "20px",
+      "width": "260px",
+    }
+  }
+>
+  <div
+    className="root"
+  >
+    <div
+      className="stack stacked"
+    >
+      <div
+        className="root"
+      >
+        <div
+          className="image"
+          style={
+            Object {
+              "backgroundImage": "url(https://images.unsplash.com/photo-1486406146926-c627a92ad1ab)",
+            }
+          }
+        />
+      </div>
+      <div
+        className="root"
+      >
+        <div
+          className="image"
+          style={
+            Object {
+              "backgroundImage": "url(https://images.unsplash.com/photo-1487958449943-2429e8be8625)",
+            }
+          }
+        />
+      </div>
+      <div
+        className="root"
+      >
+        <div
+          className="image"
+          style={
+            Object {
+              "backgroundImage": "url(https://images.unsplash.com/photo-1470075801209-17f9ec0cada6)",
+            }
+          }
+        />
+      </div>
+      <div
+        className="root"
+      >
+        <div
+          className="image"
+          style={
+            Object {
+              "backgroundImage": "url(https://images.unsplash.com/photo-1497366754035-f200968a6e72)",
+            }
+          }
+        />
+      </div>
+      <div
+        className="root"
+      >
+        <div
+          className="image"
+          style={
+            Object {
+              "backgroundImage": "url(https://images.unsplash.com/photo-1522165078649-823cf4dbaf46)",
+            }
+          }
+        />
+      </div>
+      <div
+        className="root"
+      >
+        <div
+          className="image"
+          style={
+            Object {
+              "backgroundImage": "url(https://images.unsplash.com/photo-1497366811353-6870744d04b2)",
+            }
+          }
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots FileStack single file 1`] = `
+<div
+  style={
+    Object {
+      "background": "#FFF",
+      "height": "200px",
+      "padding": "20px",
+      "width": "260px",
+    }
+  }
+>
+  <div
+    className="root"
+  >
+    <div
+      className="stack"
+    >
+      <div
+        className="root"
+      >
+        <div
+          className="image"
+          style={
+            Object {
+              "backgroundImage": "url(https://images.unsplash.com/photo-1486406146926-c627a92ad1ab)",
+            }
+          }
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;

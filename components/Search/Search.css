@@ -1,0 +1,89 @@
+.root {
+  --paddingHorizontal: 30px;
+  --paddingVertical: 4px;
+
+  position: relative;
+
+  input {
+    font-weight: $fontRegular;
+    color: $black;
+    padding: var(--paddingVertical) 12px var(--paddingVertical) var(--paddingHorizontal);
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-radius: 5px;
+  }
+
+  input::-webkit-input-placeholder {
+    color: $gray;
+    text-transform: none;
+  }
+
+  input:-moz-placeholder {
+    color: $gray;
+    text-transform: none;
+  }
+
+  input:-ms-input-placeholder {
+    color: $gray;
+    text-transform: none;
+  }
+
+  &.borderBottom input {
+    border-bottom: 1px solid $borderColor;
+
+    &:focus {
+      border-bottom: 1px solid $blue;
+    }
+  }
+
+  &.border {
+    --paddingHorizontal: 36px;
+    --paddingVertical: 9px;
+
+    input {
+      border: 1px solid $grayLighter;
+      border-radius: 4px !important;
+    }
+  }
+
+  input:focus {
+    background: $white;
+  }
+
+  &.right > input {
+    padding-left: 10px;
+    padding-right: 30px;
+  }
+
+  svg {
+    color: $gray;
+    position: absolute;
+    top: 50%;
+    margin-top: -9px;
+    left: calc((var(--paddingHorizontal) / 2) - 6px);
+  }
+
+  &.right > svg {
+    left: auto;
+    right: calc((var(--paddingHorizontal) / 2) - 6px);
+  }
+
+  .placeholder {
+    font-size: .625rem;
+    position: absolute;
+    top: 50%;
+    right: 12px;
+    margin-top: -.375rem;
+    user-select: none;
+
+    label {
+      cursor: text;
+      color: $grayLight;
+    }
+  }
+
+  &.right > .placeholder {
+    display: none;
+  }
+}

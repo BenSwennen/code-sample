@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Card /> renders a card with children 1`] = `
+<div
+  className="card"
+>
+  <div
+    className="block"
+  >
+    <div
+      className="title"
+    >
+      This is a title
+    </div>
+    <div
+      className="actions"
+    />
+  </div>
+  <div
+    className="block"
+  >
+    This is a card
+  </div>
+</div>
+`;

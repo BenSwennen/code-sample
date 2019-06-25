@@ -1,0 +1,34 @@
+.root {
+  height: 100%;
+  text-align: right;
+
+  .stack {
+    display: flex;
+    height: 100%;
+    justify-content: flex-end;
+    position: relative;
+
+    > div {
+      border: 1px solid transparent;
+      position: absolute;
+      right: 0;
+      width: 100%;
+
+      &.file {
+        background: $white;
+        border: 2px solid $grayLight !important;
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: calc(100% - 4px);
+      }
+    }
+
+    &.expandable {
+      cursor: pointer;
+    }
+
+    @mixin createStack 6;
+  }
+}

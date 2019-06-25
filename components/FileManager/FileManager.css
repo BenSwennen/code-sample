@@ -1,0 +1,85 @@
+.root {
+  display: flex;
+  padding: 0 0 0 20px;
+
+  .wrapper {
+    border: none;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .header {
+    display: flex;
+    align-items: center;
+    padding: 20px 20px 20px 0;
+
+    > * + * {
+      margin-left: 20px;
+    }
+
+    [class^="Search__root"] {
+      min-width: 300px;
+    }
+  }
+
+  .body {
+    display: flex;
+    border-top: 2px solid $grayLighter;
+    flex: 1;
+    min-height: 525px;
+    padding-right: 300px;
+    position: relative;
+
+    > .files {
+      overflow: auto;
+      max-height: 100%;
+      width: 100%;
+    }
+
+    > [class^="FileDetails"] {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+      width: 300px;
+    }
+
+    .empty {
+      align-self: center;
+      text-align: center;
+      color: $gray;
+      width: 100%;
+    }
+  }
+
+  .btnAdd {
+    color: $green;
+  }
+}
+
+.dropzone {
+  position: relative;
+
+  .overlay {
+    background: rgba(255, 255, 255, .8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 100;
+
+    .content {
+      font-size: 1.5rem;
+      text-align: center;
+
+      svg {
+        margin-bottom: 20px;
+      }
+    }
+  }
+}

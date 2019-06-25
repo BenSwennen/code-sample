@@ -1,0 +1,33 @@
+.root {
+  .title {
+    background: $grayLighter;
+    color: $gray;
+    font-size: .625rem;
+    font-weight: $fontBold;
+    line-height: .75rem;
+    padding: 5px 12px;
+    text-transform: uppercase;
+  }
+
+  > .files {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    margin-left: -8px;
+    padding: 10px 10px 10px 0;
+
+    > div {
+      box-sizing: border-box;
+      cursor: pointer;
+      min-width: 128px;
+      max-width: 256px;
+      flex: 1;
+      margin: 10px;
+      align-self: flex-start;
+
+      &.filler {
+        margin: 0 10px;
+      }
+    }
+  }
+}

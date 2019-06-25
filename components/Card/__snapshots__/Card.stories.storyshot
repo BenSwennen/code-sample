@@ -1,0 +1,254 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Card Full Example 1`] = `
+<div>
+  <div
+    className="card"
+  >
+    <div
+      className="block"
+    >
+      <div
+        className="title"
+      >
+        Enquiry Details
+      </div>
+      <div
+        className="actions"
+      >
+        <button
+          className="root save"
+          onClick={[Function]}
+          type="button"
+        >
+          Save Changes
+        </button>
+        <button
+          className="root cancel"
+          onClick={[Function]}
+          type="button"
+        >
+          Cancel
+        </button>
+      </div>
+    </div>
+    <div
+      className="blockgroup"
+    >
+      <div
+        className="container"
+        style={null}
+      >
+        <div
+          className="column span4"
+          style={Object {}}
+        >
+          <div
+            className="block"
+          >
+            <fieldset>
+              <label>
+                Size
+              </label>
+            </fieldset>
+            <fieldset>
+              <label>
+                Location
+              </label>
+              <input
+                type="text"
+              />
+            </fieldset>
+          </div>
+        </div>
+        <div
+          className="column span4"
+          style={Object {}}
+        >
+          <div
+            className="block"
+          >
+            <fieldset>
+              <label>
+                Type
+              </label>
+              <div
+                className="root"
+              >
+                <div
+                  className="input"
+                  onClick={[Function]}
+                >
+                  <button
+                    className="root btn"
+                    type="button"
+                  >
+                    <div
+                      className="content"
+                    >
+                      <div
+                        className="label"
+                      />
+                    </div>
+                    <svg
+                      style={
+                        Object {
+                          "display": "inline-block",
+                          "fill": "true",
+                          "height": ".75rem",
+                          "width": ".75rem",
+                        }
+                      }
+                    >
+                      <svg
+                        viewBox="0 0 14 8"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M14 1a1 1 0 0 0-1.694-.72L6.998 5.588 1.758.348a1 1 0 1 0-1.48 1.343l-.002.003 6 6a.997.997 0 0 0 .72.306H7a.997.997 0 0 0 .72-.306l6-6A.996.996 0 0 0 14 1z"
+                          fill="#91A6B6"
+                          fillRule="evenodd"
+                        />
+                      </svg>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </fieldset>
+            <fieldset>
+              <label>
+                Reason for moving
+              </label>
+              <input
+                type="text"
+              />
+            </fieldset>
+          </div>
+        </div>
+        <div
+          className="column span4"
+          style={Object {}}
+        >
+          <div
+            className="block"
+          >
+            <fieldset>
+              <label>
+                Start Date
+              </label>
+              <input
+                type="date"
+              />
+            </fieldset>
+            <fieldset>
+              <label>
+                Budget
+              </label>
+              <input
+                type="text"
+              />
+            </fieldset>
+          </div>
+        </div>
+        <div
+          className="column span4"
+          style={Object {}}
+        >
+          <div
+            className="block"
+          >
+            <fieldset>
+              <label>
+                Industry
+              </label>
+              <div
+                className="root"
+              >
+                <div
+                  className="input"
+                  onClick={[Function]}
+                >
+                  <button
+                    className="root btn"
+                    type="button"
+                  >
+                    <div
+                      className="content"
+                    >
+                      <div
+                        className="label"
+                      />
+                    </div>
+                    <svg
+                      style={
+                        Object {
+                          "display": "inline-block",
+                          "fill": "true",
+                          "height": ".75rem",
+                          "width": ".75rem",
+                        }
+                      }
+                    >
+                      <svg
+                        viewBox="0 0 14 8"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M14 1a1 1 0 0 0-1.694-.72L6.998 5.588 1.758.348a1 1 0 1 0-1.48 1.343l-.002.003 6 6a.997.997 0 0 0 .72.306H7a.997.997 0 0 0 .72-.306l6-6A.996.996 0 0 0 14 1z"
+                          fill="#91A6B6"
+                          fillRule="evenodd"
+                        />
+                      </svg>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </fieldset>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Card Simple 1`] = `
+<div>
+  <div
+    className="card"
+  >
+    <div
+      className="block"
+    >
+      <div
+        className="title"
+      >
+        Enquiry Details
+      </div>
+      <div
+        className="actions"
+      >
+        <button
+          className="root save"
+          onClick={[Function]}
+          type="button"
+        >
+          Save Changes
+        </button>
+        <button
+          className="root cancel"
+          onClick={[Function]}
+          type="button"
+        >
+          Cancel
+        </button>
+      </div>
+    </div>
+    <div
+      className="block"
+    >
+      This is a card
+    </div>
+  </div>
+</div>
+`;
