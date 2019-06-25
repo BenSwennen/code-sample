@@ -2,9 +2,9 @@ import React from "react";
 import PropTypes from "prop-types";
 import styles from "./Card.css";
 
-const CardGroup = props => (
+const CardGroup = ({ children }) => (
   <div className={styles.group}>
-    { props.children }
+    {children}
   </div>
 );
 

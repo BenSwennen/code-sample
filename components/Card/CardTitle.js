@@ -2,8 +2,8 @@ import React from "react";
 import PropTypes from "prop-types";
 import styles from "./Card.css";
 
-const CardTitle = props => (
-  <div className={styles.title}>{props.title}</div>
+const CardTitle = ({ title }) => (
+  <div className={styles.title}>{title}</div>
 );
 
 CardTitle.propTypes = {
